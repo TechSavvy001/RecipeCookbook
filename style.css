@@ -1,0 +1,169 @@
+/* Grundlegendes Box-Modell für alle Elemente */
+* {
+    box-sizing: border-box;
+}
+
+/* Grundlegende Schriftart für den Body-Bereich */
+
+body {
+    font-family: 'Quicksand', 'sans-serif';
+}
+
+
+/* Navbar */
+.navbar {
+    background-color: #dedede;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+
+/* Stil für die Navigationslinks */
+.nav-link {
+    font-size: 20px;
+    position: relative;
+    text-decoration: none;
+    color: #000;
+    transition: color 0.3s; 
+    margin-right: 20px;
+}
+
+
+/* Container-Stil mit Flexbox-Layout */
+.container {
+    margin-top: 200px;
+    margin-bottom: 50px;
+    max-width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+/* Stil für die Suchleiste */
+.search-bar {
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+
+/* Flex-Container für flexible Layouts */
+.flex {
+    display: flex;
+}
+
+
+/* Gemeinsamer Stil für Eingabefelder und Buttons */
+input,
+button {
+  border: 1px solid #dedede;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  font-size: 14px;
+  padding: 8px 10px;
+  margin: 0;
+}
+
+/* Spezifischer Stil für Texteingabefelder */
+input[type='text'] {
+  width: 300px;
+}
+
+/* Stil für den Suchbutton */
+.search-btn {
+    cursor: pointer;
+    border-left: 0;
+    border-radius: 0;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+  
+/* Stil für Karten-Elemente */
+.card {
+    margin: 20px;
+    max-width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+/* Stil für Bilder innerhalb von Karten */
+.card img {
+    width: auto;
+    height: auto;
+}
+
+/* Stil für benutzerdefinierte Karten */
+.custom-card {
+    border: none;
+}
+
+/* Stil für den Details-Container */
+.details-container {
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+/* Stil für Buttons innerhalb von Karten */
+.card button {
+    display: black;
+    margin-top: 10px;
+}
+
+
+/* Button Categorys und About*/
+.custom-btn {
+    border: 1px solid #dedede;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    font-size: 14px;
+    padding: 8px 10px;
+    margin: 0;
+}
+
+
+/* categoryRecipes.html */
+.recipe-title {
+    margin-bottom: 50px; /* Abstand zwischen Titel "Recipe for Selected Category" und Categories */
+}
+
+.recipes-section {
+    margin-top: 50px;
+}
+
+/* Flex-Container für Rezeptergebnisse */
+#recipes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.recipe-image {
+    width: 100%;
+    height: auto;
+}
+
+
+/* Styling für recpesCategories.html */
+.card-link {
+    text-decoration: none;
+}
+
+
+/* about.html */
+.welcome-text {
+    margin-top: 200px;
+    margin-bottom: 50px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    text-align: left 
+}
