@@ -13,9 +13,22 @@ Um die "Recipe Cookbook" Webseite lokal auszuführen, benötigen Sie:
 - Internetzugang, um API-Anfragen zu tätigen.
 
 ### Einrichtung
-1. **Klonen des Repositories**: Laden Sie das Projekt von seiner Quelle herunter oder klonen Sie es mit Git.
-2. **Öffnen der Webseite**: Öffnen Sie die index.html-Datei in Ihrem Webbrowser.
-3. Genießen Sie die Funktionen der Webseite, die keine weiteren Installationsschritte erfordert, da sie hauptsächlich API-Endpunkte für die Datenabrufung nutzt.
+Um die "Recipe Cookbook" Webseite lokal auszuführen und alle ihre Funktionen zu nutzen, benötigen Sie folgende Dateien:
+
+#### Dateien und Ordnerstruktur
+- **HTML-Dateien (5 insgesamt)**: Jede Datei repräsentiert eine Unterseite der Webseite.
+- **JavaScript-Dateien (2 insgesamt)**: Diese Skripte steuern die Funktionalität der Webseite, einschließlich API-Anfragen und Interaktivität.
+- **CSS-Datei**: Für das Styling der Webseite.
+
+Stellen Sie sicher, dass Sie alle diese Dateien in Ihrem Projektverzeichnis haben.
+
+#### Schritte zur Einrichtung
+1. **Klonen oder Herunterladen des Repositories**: Laden Sie das Projekt von seiner Quelle herunter oder klonen Sie es mit Git. Dies sollte alle erforderlichen HTML-, JavaScript- und CSS-Dateien umfassen.
+2. **Öffnen der Startseite**: Öffnen Sie die index.html-Datei in einem Webbrowser wie Chrome, Firefox oder Safari.
+3. **Überprüfen der anderen Unterseiten**: Navigieren Sie durch die verschiedenen Unterseiten, um sicherzustellen, dass alle Funktionen korrekt geladen werden.
+4. **Testen der Funktionalitäten**: Versuchen Sie, Rezepte zu suchen, Kategorien durchzustöbern und die Anzeige von zufälligen Rezepten auf der Startseite zu prüfen.
+
+Stellen Sie sicher, dass Ihr Gerät mit dem Internet verbunden ist, da die Webseite externe API-Anfragen zur Rezeptabfrage tätigt.
 
 ## Hauptfunktionen und Features
 "Recipe Cookbook" bietet eine benutzerfreundliche Schnittstelle mit mehreren interaktiven Funktionen, die das Entdecken und Auswählen von Rezepten erleichtern:
